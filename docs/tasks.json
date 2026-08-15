@@ -5,7 +5,7 @@
       "title": "인사 함수",
       "tier": "low",
       "securitySensitive": false,
-      "status": "todo",
+      "status": "done",
       "deps": [],
       "touches": [
         "src/lib/greet.py"
