@@ -1,0 +1,14 @@
+name: ci
+on: [pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: compile check
+        run: |
+          files=$(git ls-files '*.py')
+          if [ -n "$files" ]; then python3 -m py_compile $files; fi
+      - name: run tests if present
+        run: |
+          if ls tests/*.py >/dev/null 2>&1; then python3 -m unittest discover -s tests -v; fi
