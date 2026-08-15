@@ -20,7 +20,9 @@
       "tier": "low",
       "securitySensitive": false,
       "status": "todo",
-      "deps": [],
+      "deps": [
+        "P-1"
+      ],
       "touches": [
         "src/lib/goodbye.py"
       ],
@@ -29,5 +31,5 @@
       ]
     }
   ],
-  "designCommit": "68a86fb79ae6c8df92dd741e1810524706a68d43"
+  "designCommit": "a5f30a2f5bf5aa8d15869a34ea8e7b2b8c5393dc"
 }
