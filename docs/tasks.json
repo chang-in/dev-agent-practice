@@ -11,7 +11,7 @@
         "src/lib/greet.py"
       ],
       "acceptanceCriteria": [
-        "greet('a')가 'hello a'를 돌려준다"
+        "greet('a')가 'Hi a'를 돌려준다"
       ]
     },
     {
