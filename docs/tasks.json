@@ -1,8 +1,33 @@
-{"tasks": [
-  {"id": "P-1", "title": "인사 함수", "tier": "low", "securitySensitive": false,
-    "status": "todo", "deps": [], "touches": ["src/lib/greet.py"],
-    "acceptanceCriteria": ["greet('a')가 'hello a'를 돌려준다"]},
-  {"id": "P-2", "title": "작별 함수", "tier": "low", "securitySensitive": false,
-    "status": "todo", "deps": [], "touches": ["src/lib/goodbye.py"],
-    "acceptanceCriteria": ["goodbye('b')가 'goodbye b'를 돌려준다"]}
-], "designCommit": "1d36c3c0215c84d659e49292b324f7c12f211384"}
+{
+  "tasks": [
+    {
+      "id": "P-1",
+      "title": "인사 함수",
+      "tier": "low",
+      "securitySensitive": false,
+      "status": "todo",
+      "deps": [],
+      "touches": [
+        "src/lib/greet.py"
+      ],
+      "acceptanceCriteria": [
+        "greet('a')가 'hello a'를 돌려준다"
+      ]
+    },
+    {
+      "id": "P-2",
+      "title": "작별 함수",
+      "tier": "low",
+      "securitySensitive": false,
+      "status": "todo",
+      "deps": [],
+      "touches": [
+        "src/lib/goodbye.py"
+      ],
+      "acceptanceCriteria": [
+        "goodbye('b')가 'goodbye b'를 돌려준다"
+      ]
+    }
+  ],
+  "designCommit": "e93c6c23a1e26dcb2e0de6253df7b8351fe3249b"
+}
