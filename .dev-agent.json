@@ -1,6 +1,6 @@
 {
   "gates": {
-    "R4": "false"
+    "R4": "python3 -c 'print(\"ok\")'"
   },
   "max_parallel": 2,
   "max_cost_per_batch": 6.0

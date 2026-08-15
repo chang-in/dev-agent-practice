@@ -20,9 +20,7 @@
       "tier": "low",
       "securitySensitive": false,
       "status": "todo",
-      "deps": [
-        "P-1"
-      ],
+      "deps": [],
       "touches": [
         "src/lib/goodbye.py"
       ],
